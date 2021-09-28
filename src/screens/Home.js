@@ -45,27 +45,7 @@ const Home = ({ navigation }) => {
                     {/* <Button title={playing ? "pause" : "play"} onPress={togglePlaying} /> */}
                     <Button title="설문조사하러가기" onPress={()=>navigation.navigate('Survey')} />
 
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
-                    <Text>
-                        bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                    </Text>
+                  
                 </ScrollView>
             </SafeAreaView >
         </>
@@ -75,7 +55,6 @@ const Home = ({ navigation }) => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'red',
         // height: 500,
     },
     bannerImage: {
