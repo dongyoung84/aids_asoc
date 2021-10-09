@@ -20,6 +20,8 @@ import {
 import 'react-native-gesture-handler';
 import Home from './src/screens/Home'
 import Survey from './src/screens/Survey'
+import PdfView from './src/screens/PdfView'
+import Support from './src/screens/Support'
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -41,6 +43,8 @@ const App: () => Node = () => {
             >
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="Survey" component={Survey} />
+                <Stack.Screen name="PdfView" component={PdfView} />
+                <Stack.Screen name="Support" component={Support} />
 
 
             </Stack.Navigator>
